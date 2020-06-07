@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <style>
+      @media only screen and (max-width: 768px) {
+        .line {
+          font-size: 16px;
+        }
+        #baris1 {
+          font-size: 28px;
+        }
+        .loading-page .counter h1 {
+          font-size: 25vw;
+        }
+        .loading-page .counter h2 {
+          font-size: 4vw;
+        }
+
+      }
+   
+    </style>
+
+    <title>M Shiddiq Mukhlas - Web Developer</title>
+  </head>
+  <body>
+
+    <div class="loading-page">
+      <div class="counter">
+        <h1></h1>
+        <h2>LOADED...</h2>
+      </div>
+    </div>
+
+
+    <div class="wrapper">
+      <div class="content-wrapper">
+        <div class="content">
+          <!-- content -->
+          <div class="page1 animated slideInUp">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-align-self-center">
+                    <h1 class="line anim-typewriter" id="baris1">Hello.</h1>                
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-align-self-center">
+                  <h1 class="line anim-typewriter2" id="baris2">My name is Shiddiq. I'm a web developer.<h1>                
+                </div>
+              </div>
+              <!-- <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <h1 class="line anim-typewriter3" id="baris2"><h1>                
+                </div>
+              </div> -->
+              <div class="row justify-content-center">  
+                <div class="col-md-align-self-center">
+                  <h1 class="line anim-typewriter4" id="baris3">Feel free to see my portfolio.</h1>                
+                </div>
+              </div>
+            </div>        
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <!-- Sidebar -->
+      <div class="sidebar animated fadeIn">
+        <div class="nav flex-column">
+          <a href="">Home<img src="img/home-white.png" class="disabled"></a>
+          <a href="about/">About<img src="img/user-white.png" class="about"></a>
+          <a href="portfolio/">Portfolio<img src="img/mind-white.png" class="portfolio"></a>
+          <a href="contact/">Contact<img src="img/contact.png" class="message"></a>
+          <a href="blog/">Blog<img src="img/pen.png" class="blog"></a>
+        </div>
+        <div class="cover-nav">
+          <p>M Shiddiq Mukhlas</p>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+    </div>
+
+
+    <script type="text/javascript">
+
+      $(document).ready(function() {
+
+      var counter = 0;
+      var c = 0;
+      var i = setInterval(function() {
+
+      $(".loading-page .counter h1").html(c);
+      $(".loading-page").css("width", c + "%");
+
+      counter++;
+      c++;
+      if(counter == 101) {
+            clearInterval(i);
+      }
+
+    }, 30);
+
+    });
+
+
+    $(window).on("load",function(){
+        $(".loading-page").delay(3700).fadeOut()
+    });
+    </script>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
