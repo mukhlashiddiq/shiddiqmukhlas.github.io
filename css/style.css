@@ -310,7 +310,7 @@ img.blog, img.message {
 .kemampuan {
     background: #222;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
 
 .skills {
@@ -349,47 +349,74 @@ img.blog, img.message {
   transform-origin: 0 0; 
 }
 
-.skill_inner-bar--75 {
+.skill_inner-bar--html  {
   /*html*/
-  width: 75%;
+  width: 70%;
   /*background: #E44D26;*/
   background: -webkit-linear-gradient(left, #E44D26 0%,#F16529 100%);
 }
-.skill_inner-bar--60 {
+.skill_inner-bar--css {
   /*css*/
   width: 60%;
   /*background: #18A6F8;*/
   background: -webkit-linear-gradient(left, #2B5B84 0%,#18A6F8 100%);
 }
-.skill_inner-bar--40 {
-  /*java*/
-  width: 40%;
-  background: -webkit-linear-gradient(left, #aaa 0%,#fff 100%);
-}
-.skill_inner-bar--30 {
+.skill_inner-bar--js {
   /*JS*/
-  width: 25%;
+  width: 15%;
   /*background: #D5B92C;*/
   background: -webkit-linear-gradient(left, #D5B92C 0%,#F4E11B 100%);
 }
-.skill_inner-bar--25 {
+
+.skill_inner-bar--java {
+  /*java*/
+  width: 35%;
+  background: -webkit-linear-gradient(left, #aaa 0%,#fff 100%);
+}
+.skill_inner-bar--python {
   /*python*/
   width: 25%;
   /*background: #2B5B84;*/
   background: -webkit-linear-gradient(left, #2B5B84 0%,#3776AB 100%);
 }
-.skill_inner-bar--15 {
-  /*C++*/
-  width: 15%;
-  /*background: #F81BB5;*/
-  background: -webkit-linear-gradient(left, #980338 0%,#ED3B58 100%);
-
+.skill_inner-bar--csharp {
+  /*CSharp*/
+  width: 65%;
+  background: rgb(5, 5, 5);
+  /*background: -webkit-linear-gradient(left, #980338 0%,#ED3B58 100%);*/
 }
-.skill_inner-bar--10 {
-  /*django*/
-  width: 10%;
-  background: #2BA977;
-  /*background: -webkit-linear-gradient(left, #113D2E 0%,#2BA977 100%);*/
+
+
+.skill_inner-bar--godot {
+  width: 30%;
+  
+  background: #87C3CC;
+  /*background: -webkit-linear-gradient(left, #aaa 0%,#fff 100%);*/
+}
+.skill_inner-bar--unity {
+  width: 72%;
+  background: #FFF;
+  /*background: -webkit-linear-gradient(left, #2B5B84 0%,#3776AB 100%);*/
+}
+
+.skill_inner-bar--adobePhotoshop {
+  width: 30%;
+  background: #8797CC;
+  /*background: -webkit-linear-gradient(left, #980338 0%,#ED3B58 100%);*/
+}
+.skill_inner-bar--adobeXd {
+  width: 68%;
+  background: -webkit-linear-gradient(left, #CC87B3 0%,#CC87B3 100%);
+}
+.skill_inner-bar--adobeIllustrator {
+  width: 30%;
+  background: #CCA587;
+  /*background: -webkit-linear-gradient(left, #2B5B84 0%,#3776AB 100%);*/
+}
+.skill_inner-bar--vroidStudio {
+  width: 85%;
+  background: rgb(10,10,10);
+  /*background: -webkit-linear-gradient(left, #2B5B84 0%,#3776AB 100%);*/
 }
 
 @keyframes fillBar {
